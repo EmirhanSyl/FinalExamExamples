@@ -1,0 +1,12 @@
+1) Encapsulation ile bir class'ın field'larını başka bir class'tan ayarlarken veya çağırıken o özelliğe erişimi kontrol 
+altında tutabilmemizi ve istediğimiz boyutta ayarlanmasını sağlamamızı sağlamak ve private attribute'lara erişmek gibi birçok
+faydaya sahiptir
+
+2) Upcasting sub-class türünde bir objeyi super-class olarak tutabilmemizi sağlar. Downcasting ise tam tersine super-class olarak
+tutulan objeyi sub-class haline geri döndürmeye yarar. Bu ikisini aktif olarak kullanmaya polymorphism denir ve polymorphism sayesinde
+birçok farklı türü tek bir listede tutarak birçok farklı işlemi tek aşamaya düşürebiliriz
+
+3) static binding(overloading)(early binding), Dynamic binding(overriding)(late binding)
+
+overriding ile super class'ın içerisindeki bir methodu yok sayıp onu sub-class'ın içerisinde yeniden ayarlayabiliriz. bu özelliği
+Polymorphism ile kullanmak ise tek bir sub-class objesi ile override method'ların her halini kullanabilmeyi sağlar.
